@@ -1,0 +1,65 @@
+/* General app container styles */
+.app-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Task Form and Task List Styles */
+  app-task-form, app-task-list {
+    margin-top: 30px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add Task Button */
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Edit and Delete buttons */
+  button.edit-btn {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c82333;
+  }
+  
